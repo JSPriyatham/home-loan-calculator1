@@ -3,7 +3,7 @@ import { Col, Form, FormGroup, Input, Label, Row, Table } from "reactstrap"
 export const Home = () => {
     return (
         <div className='mx-1'>
-            <Row>
+            <Row className="mt-2">
                 <Col
                     className="bg-light border"
                     xs="6"
@@ -56,7 +56,7 @@ export const Home = () => {
                     <h4>B</h4>
                 </Col>
             </Row>
-            <Row>
+            <Row className="mt-2"> 
                 <Col
                     className="bg-light border"
                     xs="12"
