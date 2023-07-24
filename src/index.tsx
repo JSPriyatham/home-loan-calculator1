@@ -10,10 +10,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <BrowserRouter>
-    <div className='mx-1'>
-      <App />
-    </div>
-
+    <App />
   </BrowserRouter>,
 );
 
